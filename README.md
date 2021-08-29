@@ -1,24 +1,22 @@
-# vue
+This is a tutorial showcasing how to build a vuejs app and serve it using expressjs
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
+# install express 
+```shell
+npm install express --save
 ```
 
-### Compiles and minifies for production
+# Build  production 
+```shell
+cd src
+npm build
 ```
-yarn build
+this will generate a folder named dist
+take a look at the index.js file
+
+
+## Start app
+```
+node index
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Made with love by [Ismael](https://github.com/ismael-su)
